@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+
+body{
+    background-color: teal;
+}
+.banner{
+    /* border: 2px solid red; */
+    display:  flex;
+    justify-content: space-around;
+    color: wheat;
+    font-size: 25px;
+    font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.addScore{
+
+    /* border: 2px solid red; */
+    display:  flex;
+    
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.addScore button{
+    border: none;
+    padding: 10px;
+    color: white;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(53, 29, 139);
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.addWicket button{
+
+    border: none;
+    padding: 10px;
+    color: white;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(53, 29, 139);
+    margin: 20px;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
+.addBall button {
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    border: none;
+    padding: 10px;
+    color: white;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(53, 29, 139);
+    margin: 20px;
+
 }
